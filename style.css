@@ -131,6 +131,11 @@ body{
     justify-content: space-between;
     flex-flow: column wrap;
 }
+/* option{
+    padding: 5px;
+    margin: 2px;
+    border-bottom: 1px solid red;
+} */
 .wakeup{
     display: flex;
     justify-content: space-between;
@@ -209,10 +214,12 @@ select{
 
 .btn:hover span{
     display: none;
-    
 }
+
 .btn:hover::before{
     content: "Party Time!!";
+    cursor:pointer;
+
 }
 
 .btn:hover{
@@ -257,7 +264,7 @@ select{
     text-align: center;
 }
 
-.alarmimage{
+#alarmimage{
     position: absolute;
     top: 345px;
     left: 757px;
