@@ -71,8 +71,7 @@ function setTime() {
         document.getElementById("msg1").innerText = "Good evening";
 
         document.getElementById("msg2").innerText = "get some tea!";
-
-        document.getElementById("eveng").innerHTML = x;
+        
 
         let image = document.getElementById("alarmimage");
         image.style.backgroundImage = "url(./evening.svg)";
