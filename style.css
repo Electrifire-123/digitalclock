@@ -405,7 +405,8 @@ select{
         box-sizing: border-box;
         display: grid;
         grid-template-columns: auto;
-        
+        margin: 0;
+        padding: 0;
         overflow: hidden;
     }
     .clock{
